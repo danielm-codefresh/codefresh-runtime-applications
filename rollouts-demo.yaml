@@ -8,7 +8,7 @@ spec:
   project: default
   source:
     path: resources
-    repoURL: https://github.com/idan-codefresh/guestbook.git
+    repoURL: https://github.com/danielm-codefresh/guestbook.git
     targetRevision: HEAD
   destination:
     name: in-cluster
