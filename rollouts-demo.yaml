@@ -11,7 +11,7 @@ spec:
     repoURL: https://github.com/danielm-codefresh/guestbook.git
     targetRevision: HEAD
   destination:
-    name: in-cluster
+    name: in-clusters
     namespace: default
   syncPolicy:
     automated:
