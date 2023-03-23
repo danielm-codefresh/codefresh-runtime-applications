@@ -11,7 +11,7 @@ spec:
     repoURL: https://github.com/danielm-codefresh/canary-rollout.git
     targetRevision: HEAD
   destination:
-    name: daniel-dev
+    name: arn-aws-eks-us-east-1-095585282052-cluster-daniel-dev
     namespace: default
   syncPolicy:
     automated:
